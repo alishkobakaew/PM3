@@ -1,0 +1,11 @@
+import time
+
+def task(name,seconds):
+    print(f"Упала '{name}', начинаю работу")
+    time .sleep(seconds)
+    print(f"{name}, выполнена")
+
+
+
+    task('Задача 1', 3)
+    task('Задача 2', 2)
